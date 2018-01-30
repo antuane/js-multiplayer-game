@@ -1,0 +1,40 @@
+{
+  "name": "js-multiplayer-game",
+  "version": "1.0.0",
+  "description": "JavaScript WebSocket Multiplayer Game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "build": "webpack --watch",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js --config nodemon.json --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antuane/js-multiplayer-game.git"
+  },
+  "keywords": [
+    "websocket",
+    "game",
+    "javascript",
+    "multiplayer",
+    "mmo"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antuane/js-multiplayer-game/issues"
+  },
+  "homepage": "https://github.com/antuane/js-multiplayer-game",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.34",
+    "socket.io": "^2.0.4",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.14.11",
+    "webpack": "^3.10.0"
+  }
+}

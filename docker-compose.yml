@@ -1,0 +1,7 @@
+mongodb:
+ image: douglaszuqueto/alpine-mongodb:3.2.7
+ container_name: api-mongodb
+ ports:
+  - 27017:27017
+ volumes:
+  - mongodb-data:/data/db
